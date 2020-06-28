@@ -1,6 +1,6 @@
 # Override these settings with your own
 languageCode = "ko-KR"
-baseURL = "https://example.org/"
+baseURL = "https://95ganghyeon.github.io/"
 copyright = "© {year} 권강현"
 title = "95Ganghyeon's Blog"
 
