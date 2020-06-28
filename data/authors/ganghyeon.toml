@@ -1,0 +1,13 @@
+id = "ganghyeon"
+
+[email]
+username = "kgh9959"
+host = "naver.com"
+
+[name]
+display = "KwonGanghyeon"
+
+[social]
+email = "" # 위에서 이메일 썼기 때문에 또 쓸 필요 없음(도큐먼트가 위에 쓰는 것을 장려)
+facebook  = "" # 트위터 아이디 있으면 여기다가 아이디 기입
+twitter = "" # 트위터 아이디 있으면 여기다가 아이디 기입
