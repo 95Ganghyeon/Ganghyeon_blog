@@ -7,6 +7,11 @@
     a:hover { text-decoration: none; }
     a:focus { text-decoration: none; }
     a:hover, a:active { text-decoration: none; }
+}
 
-
+.utterances{
+    // <div class="utterances"></div> 는 utterances를 통해 추가한 댓글 박스이다.
+    // utterances 댓글 기능은 코드상에는 ROOT/layouts/_default/single.html에 <script> 태그로 존재하고 있다.
+    // 해당 스크립트 태그가 페이지 랜더링과정에서 <div class="utterances"></div>를 생성하는 것이다.
+    margin-top: 1.5rem;
 }
