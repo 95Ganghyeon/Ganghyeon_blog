@@ -1,7 +1,8 @@
 # Override these settings with your own
 languageCode = "ko-KR"
 baseURL = "https://example.org/"
-copyright = "© {year}"
+copyright = "© {year} 권강현"
+title = "95Ganghyeon's Blog"
 
 # The value "hugo-theme-codex" is only to get the exampleSite
 # to work in this repo. Change to whatever name you gave the theme
@@ -11,7 +12,7 @@ theme = "codex"
 
 
 # Add your Disqus shortname here. # 댓글 서비스는 여기서 등록하는거다. Disqus는 유명한 서비스이다.
-# disqusShortname = ""
+disqusShortname = "Ganghyeon"
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X  # 여러가지 통계를 내주는 구글의 서비스를 여기다 등록하는 것 같다.(검색등록과 다른 것임)
 # googleAnalytics = "" 
