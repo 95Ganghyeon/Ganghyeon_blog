@@ -1,1 +1,1 @@
-.splash a{color:#0060b6;text-decoration:none}
+.portfolio{max-width:700px;padding-top:2em}.portfolio a{text-decoration:none;color:#00e}.portfolio a:visited{text-decoration:none}.portfolio a:hover{text-decoration:none}.portfolio a:focus{text-decoration:none}.portfolio a:hover,.portfolio a:active{text-decoration:none}
