@@ -1,0 +1,32 @@
+  
+{{ define "styles" }}
+{{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="splash-container">
+    <div class="splash">
+
+        <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+        {{ if isset .Params "handle" }}
+        <span class="handle">@{{ .Params.handle }}</span>
+        {{ end }}
+        <h2>
+        {{ .Params.subheading }}
+        </h2>
+        
+        <!-- 여기 아래에다가 포트폴리오 작성하면 됨 -->
+
+        <h3>Activity</h3>
+        <ul>
+            <li>
+                2019 <a href="http://dalchaebi.com/">달 채비(DAL CHAEBI)</a> 웹 서비스 구축
+            </li>
+        </ul>
+
+        {{ partial "social-icons.html" .}}
+    </div>
+</div>
+
+{{ end }}
