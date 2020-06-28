@@ -8,15 +8,19 @@
 <div class="splash-container">
     <div class="splash">
 
-        
+        <div class="profile-box">
+            <img class="profile" src="/images/profile.jpg" alt="Gang">
+        </div>
 
-        <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
-        {{ if isset .Params "handle" }}
-        <span class="handle">@{{ .Params.handle }}</span>
-        {{ end }}
-        <h2>
-        {{ .Params.subheading }}
-        </h2>
+        <div class="codex-intro">
+            <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+            {{ if isset .Params "handle" }}
+            <span class="handle">@{{ .Params.handle }}</span>
+            {{ end }}
+            <h2>
+            {{ .Params.subheading }}
+            </h2>
+        </div>
         
         <!-- 여기 아래에다가 포트폴리오 작성하면 됨 -->
         
@@ -29,7 +33,7 @@
             기술 외적으로는 "Put yourself in one's shoes!", "역지사지(易地思之)"의 마음가짐으로 사람을 이해하는데 관심이 많습니다.
             여러 사람의 마음을 충분히 헤아리면서 주어진 환경을 가꾸어 나갈 때 일어나는 선순환의 흐름이 세상을 바꿀 수 있다고 믿습니다.<br>
             <br>
-            제가 어떤 사람인지 더 궁금하다면 아래의 이력서를 확인해주시기 바랍니다. 감사합니다. ☺️ <br>
+            제가 어떤 사람인지 더 궁금하다면 아래의 이력서를 확인해주시기 바랍니다. 감사합니다. 😊 <br>
 
             <ul>
                 <li><a href="">CV</a>(국문)</li>

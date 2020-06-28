@@ -1,6 +1,25 @@
+// index.html
+.profile-box {
+    width: 200px;
+    height: 200px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin: auto;
+    
+
+    .profile {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.codex-intro{
+    padding: 1.5em 0;
+}
+
 .portfolio {
     max-width: 700px;
-    padding-top: 2em;
 
     a { text-decoration: none; color: #0000EE; }
     a:visited { text-decoration: none; }
@@ -9,6 +28,9 @@
     a:hover, a:active { text-decoration: none; }
 }
 
+
+
+// _default/single.html
 .utterances{
     // <div class="utterances"></div> 는 utterances를 통해 추가한 댓글 박스이다.
     // utterances 댓글 기능은 코드상에는 ROOT/layouts/_default/single.html에 <script> 태그로 존재하고 있다.
