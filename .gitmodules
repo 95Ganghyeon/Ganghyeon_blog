@@ -1,3 +1,7 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/95Ganghyeon/95Ganghyeon.github.io.git
+	branch = master
 [submodule "themes/codex"]
 	path = themes/codex
 	url = https://github.com/jakewies/hugo-theme-codex.git
