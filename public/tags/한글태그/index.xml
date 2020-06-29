@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>한글태그 on 95Ganghyeon&#39;s Blog</title>
+    <link>https://95ganghyeon.github.io/tags/%ED%95%9C%EA%B8%80%ED%83%9C%EA%B7%B8/</link>
+    <description>Recent content in 한글태그 on 95Ganghyeon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <copyright>© {year} 권강현</copyright>
+    <lastBuildDate>Mon, 29 Jun 2020 16:32:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://95ganghyeon.github.io/tags/%ED%95%9C%EA%B8%80%ED%83%9C%EA%B7%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2020 06 29 공개용 테스트</title>
+      <link>https://95ganghyeon.github.io/blog/2020-06-29-%EA%B3%B5%EA%B0%9C%EC%9A%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8/</link>
+      <pubDate>Mon, 29 Jun 2020 16:32:06 +0900</pubDate>
+      
+      <guid>https://95ganghyeon.github.io/blog/2020-06-29-%EA%B3%B5%EA%B0%9C%EC%9A%A9-%ED%85%8C%EC%8A%A4%ED%8A%B8/</guid>
+      <description>아무거나
+if a == 1{ b += 1 }  </description>
+    </item>
+    
+  </channel>
+</rss>
