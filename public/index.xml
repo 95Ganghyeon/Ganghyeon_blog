@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>95Ganghyeon&#39;s Blog</title>
+    <link>https://95ganghyeon.github.io/</link>
+    <description>Recent content on 95Ganghyeon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-KR</language>
+    <copyright>© {year} 권강현</copyright>
+    <lastBuildDate>Sun, 28 Jun 2020 14:12:06 +0900</lastBuildDate>
+    
+	<atom:link href="https://95ganghyeon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo&#43;github pages로 블로그 구축한 후기</title>
+      <link>https://95ganghyeon.github.io/thought/2020-06-28-%ED%9C%B4%EA%B3%A0-%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/</link>
+      <pubDate>Sun, 28 Jun 2020 14:12:06 +0900</pubDate>
+      
+      <guid>https://95ganghyeon.github.io/thought/2020-06-28-%ED%9C%B4%EA%B3%A0-%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/</guid>
+      <description>명지대학교에서 데이터테크놀로지과를 복수전공하면서 많은 걸 배웠다. 그중 권동섭 교수님은 단순히 지식을 가르치는 것을 떠나서, 취업을 어떤식으로 준비해야 하고 개발자라면 어떻게 성장해나가야 하는지도 가르쳐 주셨다. 많은 것을 강조하셨고, 그중 가장 기억에 남는 말이 있다.
+ &amp;ldquo;시간을 내서 웹 포트폴리오를 만들고, 평생 이력서를 수정해나가면서 성장해라.&amp;quot;
+ 그리고 오늘 그 말씀을 실천하기 위한 첫발을 내디뎠다. 앞으로 About 탭을 내가 오버라이딩 해서 포트폴리오용 페이지로 커스텀 할 것이고, 나머지 탭들은 이왕 Hugo라는 재밌는 툴로 블로그를 빌드한 김에 나도 누군가에게 도움이 될지 모르는 포스팅을 남겨보려 한다.</description>
+    </item>
+    
+  </channel>
+</rss>
