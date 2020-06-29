@@ -4,6 +4,11 @@ baseURL = "https://95ganghyeon.github.io/"
 copyright = "© {year} 권강현"
 title = "95Ganghyeon's Blog"
 
+# 테스트
+relativeURLs = true
+uglyURLs = true
+
+
 # The value "hugo-theme-codex" is only to get the exampleSite
 # to work in this repo. Change to whatever name you gave the theme
 # when you added it. If you followed the README, you should have 
