@@ -43,7 +43,11 @@
       </div>
       {{ if .Params.toc }}
       <div class="toc-container">
-          {{ if .Site.Params.showPageTitleInTOC }} <div class="toc-post-title">{{ .Title }}</div> {{ end }}
+        
+        <!-- 포스팅의 frontmatter에서 toc: True로 놓았을 때 이용자들이 목차라는 것을 쉽게 알 수 있도록 제목 삽입-->
+        <div>[목차]</div>
+
+          {{ if .Site.Params.showPageTitleInTOC }}<div class="toc-post-title">{{ .Title }}</div> {{ end }}
         {{ .TableOfContents }}
       </div>
       {{ end }}

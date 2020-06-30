@@ -29,7 +29,6 @@
 }
 
 
-
 // _default/single.html
 .utterances{
     // <div class="utterances"></div> 는 utterances를 통해 추가한 댓글 박스이다.
@@ -37,3 +36,29 @@
     // 해당 스크립트 태그가 페이지 랜더링과정에서 <div class="utterances"></div>를 생성하는 것이다.
     margin-top: 1.5rem;
 }
+
+.post {
+    // 포스팅 좌우 폭이 너무 좁아서 오버라이딩 하여 폭을 늘렸다.
+    max-width: 45rem;
+
+    .post__content {
+        p, li{
+            // 포스팅 본문의 줄간격이 너무 좁아서 필요한 태그 위치에서 줄간격을 넓혔다.
+            line-height: 2rem;
+        }
+        
+        p, li{
+            // 포스팅 본문에서 필요한 태그 위치에서 하이퍼링크 모습을 파랑색으로 고정
+            a { text-decoration: none; color: #0000EE; }
+            a:visited { text-decoration: none; }
+            a:hover { text-decoration: none; }
+            a:focus { text-decoration: none; }
+            a:hover, a:active { text-decoration: none; }
+        }
+    }
+}
+
+
+
+
+
